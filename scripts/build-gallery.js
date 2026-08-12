@@ -34,7 +34,7 @@ const html = `<!DOCTYPE html>
 .btn-wa:hover{background:#1ebe5b;border-color:#1ebe5b;color:#fff}
 .btn-call{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
 .btn-call:hover{background:rgba(255,255,255,.1);color:#fff}
-.stats-bar{background:linear-gradient(90deg,#0d1a3a 0%,#0f2652 100%);padding:2.5rem 0}
+.stats-bar{background:#0a0a0a;padding:2.5rem 0}
 .stats-bar-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;text-align:center}
 .stat-item{display:flex;flex-direction:column;align-items:center}
 .stat-num{font-size:2.2rem;font-weight:800;color:#00d075;font-family:'Outfit',sans-serif;line-height:1}
@@ -271,8 +271,8 @@ const html = `<!DOCTYPE html>
 <section class="stats-bar">
   <div class="container">
     <div class="stats-bar-grid">
-      <div class="stat-item fade-up"><div class="stat-num" data-target="15">0</div><div class="stat-lbl">+ Years Experience</div></div>
-      <div class="stat-item fade-up"><div class="stat-num" data-target="1000">0</div><div class="stat-lbl">+ B2B Clients Served</div></div>
+      <div class="stat-item fade-up"><div class="stat-num" data-target="13">0</div><div class="stat-lbl">+ Years Experience</div></div>
+      <div class="stat-item fade-up"><div class="stat-num" data-target="5000">0</div><div class="stat-lbl">+ Projects</div></div>
       <div class="stat-item fade-up"><div class="stat-num">4.9&#9733;</div><div class="stat-lbl">Customer Rating</div></div>
       <div class="stat-item fade-up"><div class="stat-num">24/7</div><div class="stat-lbl">Flexible Scheduling</div></div>
     </div>
