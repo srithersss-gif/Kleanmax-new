@@ -733,7 +733,7 @@ ul {
    ========================================================================== */
 
 .trust-bar {
-    background-color: var(--bg-dark);
+    background-color: #0a0a0a;
     padding: 2.5rem 0;
     margin-top: 3rem;
 }
