@@ -739,13 +739,23 @@ ul {
 }
 
 .trust-bar-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    overflow-x: auto;
     gap: 1.5rem;
-    text-align: center;
+    padding-bottom: 1rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.trust-bar-grid::-webkit-scrollbar {
+    display: none;
 }
 
 .trust-stat {
+    flex: 0 0 160px;
+    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1336,7 +1346,14 @@ ul {
 
 @media (min-width: 640px) {
     .trust-bar-grid {
+        display: grid;
         grid-template-columns: repeat(4, 1fr);
+        overflow-x: visible;
+        padding-bottom: 0;
+    }
+
+    .trust-stat {
+        flex: auto;
     }
 
     .services-grid {
