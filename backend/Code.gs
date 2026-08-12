@@ -76,7 +76,8 @@ function doPost(e) {
     // Send Instant Email Notification to the Sheet Owner
     try {
       var adminEmail = Session.getActiveUser().getEmail();
-      if (adminEmail) {
+      var targetEmail = "info@kleanmax.com" + (adminEmail ? "," + adminEmail : "");
+      if (targetEmail) {
         var emailSubject = "🚨 New Commercial Cleaning Inquiry - " + fullName;
         var emailBody = 
           "New Website Lead Received:\n\n" +
@@ -91,7 +92,7 @@ function doPost(e) {
           "🔗 Page URL: " + pageUrl + "\n\n" +
           "Timestamp: " + timestamp.toString();
           
-        MailApp.sendEmail(adminEmail, emailSubject, emailBody);
+        MailApp.sendEmail(targetEmail, emailSubject, emailBody);
       }
     } catch (mailErr) {
       Logger.log("Email notification error: " + mailErr.toString());
