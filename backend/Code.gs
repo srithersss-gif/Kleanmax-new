@@ -7,7 +7,9 @@ function doPost(e) {
   lock.tryLock(10000);
   
   try {
-    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    // Connect directly to "Kleanmax Neww 2026" sheet using its ID
+    var sheetId = "1MKSy8fhBw12Udav_Lb7sgPJiCaQwp_c7Aw9M64vN1BI";
+    var sheet = SpreadsheetApp.openById(sheetId).getActiveSheet();
     
     // Auto-create headers if sheet is empty
     if (sheet.getLastRow() === 0) {
