@@ -1,0 +1,22 @@
+{
+  "name": "kleanmax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srithersss-gif/Kleanmax-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/srithersss-gif/Kleanmax-new/issues"
+  },
+  "homepage": "https://github.com/srithersss-gif/Kleanmax-new#readme"
+}

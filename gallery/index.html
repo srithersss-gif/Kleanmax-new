@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial &amp; Industrial Cleaning Projects in Chennai | Kleanmax Gallery</title>
+    <!-- Transparent Butterfly Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+    
+    <meta name="description" content="Explore Kleanmax commercial and industrial cleaning projects in Chennai, including office, factory, warehouse, hospital, floor care and professional facility cleaning.">
+    <link rel="canonical" href="https://kleanmax.com/gallery">
+    <meta property="og:title" content="Commercial &amp; Industrial Cleaning Projects | Kleanmax Gallery">
+    <meta property="og:description" content="Explore professional commercial cleaning projects by Kleanmax across offices, factories, warehouses and industrial facilities in Chennai.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kleanmax.com/gallery">
+    <meta property="og:image" content="https://kleanmax.com/assets/images/industrial-cleaning-chennai.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Kleanmax","url":"https://kleanmax.com","telephone":"+917338882034","address":{"@type":"PostalAddress","addressLocality":"Chennai","addressCountry":"IN"}}</script>
+    <style>
+/* =============================================
+   GALLERY PAGE STYLES
+   ============================================= */
+.gallery-hero{position:relative;margin-top:80px;min-height:78vh;display:flex;align-items:center;padding:5rem 0;overflow:hidden}
+.gallery-hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.gallery-hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,15,35,0.93) 0%,rgba(10,15,35,0.78) 55%,rgba(0,120,80,0.25) 100%);z-index:-1}
+.gallery-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(0,208,117,0.12);border:1px solid rgba(0,208,117,0.4);color:#00d075;padding:.4rem 1rem;border-radius:30px;font-size:.82rem;font-weight:700;letter-spacing:.06em;margin-bottom:1.5rem;text-transform:uppercase}
+.gallery-hero h1{font-size:clamp(1.75rem,4vw,3rem);font-weight:800;color:#fff;line-height:1.15;margin-bottom:1.25rem}
+.gallery-hero p{font-size:1.05rem;color:rgba(255,255,255,.82);max-width:640px;line-height:1.75;margin-bottom:2rem}
+.gallery-hero-btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn-wa{background:#25D366;color:#fff;border-color:#25D366}
+.btn-wa:hover{background:#1ebe5b;border-color:#1ebe5b;color:#fff}
+.btn-call{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.btn-call:hover{background:rgba(255,255,255,.1);color:#fff}
+.stats-bar{background:linear-gradient(90deg,#0d1a3a 0%,#0f2652 100%);padding:2.5rem 0}
+.stats-bar-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;text-align:center}
+.stat-item{display:flex;flex-direction:column;align-items:center}
+.stat-num{font-size:2.2rem;font-weight:800;color:#00d075;font-family:'Outfit',sans-serif;line-height:1}
+.stat-lbl{font-size:.82rem;color:rgba(255,255,255,.65);margin-top:.4rem;font-weight:500}
+.filter-section{background:#f8fafc;padding:2rem 0;border-bottom:1px solid #e2e8f0;position:sticky;top:80px;z-index:100}
+.filter-label{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#64748b;margin-bottom:1rem;display:block}
+.filter-bar{display:flex;flex-wrap:wrap;gap:.5rem}
+.filter-btn{padding:.45rem 1rem;border:1.5px solid #e2e8f0;border-radius:25px;background:#fff;color:#475569;font-size:.82rem;font-weight:600;cursor:pointer;transition:all .2s;white-space:nowrap;font-family:'Inter',sans-serif}
+.filter-btn:hover{border-color:var(--primary-color);color:var(--primary-color)}
+.filter-btn.active{background:var(--primary-color);border-color:var(--primary-color);color:#fff;box-shadow:0 2px 8px rgba(0,183,110,.3)}
+.gallery-section{padding:4rem 0;background:#fff}
+.gallery-count{font-size:.88rem;color:#64748b;margin-bottom:1.75rem}
+.gallery-count span{font-weight:700;color:var(--primary-color)}
+.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem}
+.gallery-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.07);border:1px solid #f1f5f9;transition:transform .3s ease,box-shadow .3s ease;cursor:pointer}
+.gallery-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.14)}
+.gallery-card-img{position:relative;aspect-ratio:4/3;overflow:hidden;background:#0d1a3a}
+.gallery-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;display:block}
+.gallery-card:hover .gallery-card-img img{transform:scale(1.06)}
+.gallery-overlay-icon{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0);transition:background .3s}
+.gallery-card:hover .gallery-overlay-icon{background:rgba(0,0,0,.35)}
+.gallery-overlay-icon svg{color:#fff;opacity:0;transform:scale(.7);transition:all .3s}
+.gallery-card:hover .gallery-overlay-icon svg{opacity:1;transform:scale(1)}
+.gallery-tag{position:absolute;top:10px;left:10px;background:var(--primary-color);color:#fff;font-size:.68rem;font-weight:700;padding:.22rem .6rem;border-radius:20px;letter-spacing:.04em;text-transform:uppercase}
+.gallery-card-body{padding:1rem}
+.gallery-card-title{font-size:.93rem;font-weight:700;color:#0f172a;margin-bottom:.3rem;line-height:1.4}
+.gallery-card-desc{font-size:.79rem;color:#64748b;line-height:1.55}
+.gallery-card-loc{display:flex;align-items:center;gap:.3rem;font-size:.74rem;color:#94a3b8;margin-top:.5rem;font-weight:500}
+.gallery-card.hidden{display:none}
+.gallery-card.fade-in{animation:cardFadeIn .35s ease forwards}
+@keyframes cardFadeIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.before-after-section{padding:5rem 0;background:#f8fafc}
+.before-after-grid{display:grid;grid-template-columns:1fr;gap:2rem;margin-top:2.5rem}
+.ba-card{border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);background:#fff}
+.ba-images{display:grid;grid-template-columns:1fr 1fr;position:relative}
+.ba-side{position:relative;aspect-ratio:4/3;overflow:hidden}
+.ba-side img{width:100%;height:100%;object-fit:cover;display:block}
+.ba-label{position:absolute;top:10px;left:10px;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:.22rem .6rem;border-radius:4px}
+.ba-label.before{background:#ef4444;color:#fff}
+.ba-label.after{background:#22c55e;color:#fff}
+.ba-body{padding:1.25rem}
+.ba-body h4{font-size:1rem;font-weight:700;margin-bottom:.3rem}
+.ba-body p{font-size:.83rem;color:#64748b}
+.equipment-section{padding:5rem 0;background:#fff}
+.equipment-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;margin-top:2.5rem}
+.equipment-card{background:#f8fafc;border-radius:12px;overflow:hidden;border:1px solid #e2e8f0;transition:box-shadow .3s}
+.equipment-card:hover{box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.equipment-card-img{aspect-ratio:16/9;overflow:hidden}
+.equipment-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s;display:block}
+.equipment-card:hover .equipment-card-img img{transform:scale(1.04)}
+.equipment-card-body{padding:1.25rem}
+.equipment-card-body h4{font-size:1rem;font-weight:700;margin-bottom:.4rem;color:#0f172a}
+.equipment-card-body p{font-size:.83rem;color:#64748b;margin-bottom:.5rem}
+.equipment-used-for{font-size:.73rem;font-weight:600;color:var(--primary-color);text-transform:uppercase;letter-spacing:.04em}
+.team-section{padding:5rem 0;background:#0d1a3a;color:#fff}
+.team-section .section-title{color:#fff}
+.team-section .section-subtitle{color:rgba(255,255,255,.65)}
+.team-gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem;margin-top:2.5rem}
+.team-gallery-card{border-radius:12px;overflow:hidden;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)}
+.team-gallery-img{aspect-ratio:4/3;overflow:hidden}
+.team-gallery-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s;display:block}
+.team-gallery-card:hover .team-gallery-img img{transform:scale(1.05)}
+.team-gallery-body{padding:1rem}
+.team-gallery-body h4{font-size:.9rem;font-weight:700;color:#fff;margin-bottom:.25rem}
+.team-gallery-body p{font-size:.78rem;color:rgba(255,255,255,.6)}
+.category-section{padding:5rem 0;background:#f8fafc}
+.category-cards{display:grid;grid-template-columns:1fr;gap:1.25rem;margin-top:2.5rem}
+.category-card{background:#fff;border-radius:14px;padding:1.5rem;border:1px solid #e2e8f0;display:flex;gap:1.25rem;align-items:flex-start;transition:all .3s;text-decoration:none;color:inherit}
+.category-card:hover{border-color:var(--primary-color);box-shadow:0 4px 16px rgba(0,183,110,.12);transform:translateY(-2px)}
+.cat-icon{width:52px;height:52px;border-radius:12px;background:linear-gradient(135deg,rgba(0,183,110,.1),rgba(0,183,110,.2));display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.4rem}
+.cat-body h3{font-size:1rem;font-weight:700;margin-bottom:.3rem}
+.cat-body p{font-size:.82rem;color:#64748b;line-height:1.6;margin-bottom:.5rem}
+.cat-tags{display:flex;flex-wrap:wrap;gap:.35rem}
+.cat-tag{font-size:.72rem;background:#f1f5f9;color:#475569;padding:.2rem .55rem;border-radius:4px;font-weight:500}
+.gallery-cta{padding:5rem 0;background:linear-gradient(135deg,#0d1a3a 0%,#0f2652 50%,#0d3320 100%);text-align:center;color:#fff}
+.gallery-cta h2{color:#fff;font-size:clamp(1.5rem,3vw,2.5rem)}
+.gallery-cta p{color:rgba(255,255,255,.75);max-width:600px;margin:1rem auto 2rem}
+.gallery-cta-btns{display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem}
+.quote-section{padding:5rem 0;background:#fff}
+.quote-grid{display:grid;grid-template-columns:1fr;gap:3rem}
+.quote-info p{color:#64748b;margin-bottom:1.5rem}
+.quote-checklist{list-style:none;display:flex;flex-direction:column;gap:.75rem}
+.quote-checklist li{display:flex;align-items:center;gap:.75rem;font-size:.93rem;color:#374151;font-weight:500}
+.quote-checklist li::before{content:'\2713';width:22px;height:22px;background:var(--primary-color);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800;flex-shrink:0}
+.quote-form-card{background:#fff;border:1px solid #e2e8f0;border-radius:16px;padding:2rem;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.quote-form-card h3{font-size:1.2rem;font-weight:700;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid #f1f5f9}
+.lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:9999;display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s;padding:1rem}
+.lightbox-overlay.open{opacity:1;visibility:visible}
+.lightbox-inner{max-width:900px;width:100%;position:relative}
+.lightbox-img-wrap{width:100%;border-radius:10px;overflow:hidden;background:#111;max-height:65vh;display:flex;align-items:center;justify-content:center}
+.lightbox-img-wrap img{max-width:100%;max-height:65vh;object-fit:contain;display:block}
+.lightbox-info{padding:1rem 0 .5rem;color:#fff}
+.lb-cat{font-size:.73rem;font-weight:700;color:#00d075;text-transform:uppercase;letter-spacing:.08em}
+.lb-title{font-size:1.1rem;font-weight:700;margin:.25rem 0}
+.lb-desc{font-size:.83rem;color:rgba(255,255,255,.65)}
+.lb-close{position:absolute;top:-48px;right:0;background:transparent;border:none;color:#fff;font-size:2rem;cursor:pointer;line-height:1;padding:.25rem .5rem;transition:color .2s}
+.lb-close:hover{color:#00d075}
+.lb-nav{position:absolute;top:45%;transform:translateY(-50%);background:rgba(255,255,255,.1);border:none;color:#fff;font-size:1.5rem;width:44px;height:44px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s;backdrop-filter:blur(4px)}
+.lb-nav:hover{background:rgba(0,208,117,.35)}
+.lb-prev{left:-56px}
+.lb-next{right:-56px}
+.floating-btns{position:fixed;bottom:1.5rem;right:1.5rem;display:flex;flex-direction:column;gap:.75rem;z-index:900}
+.float-btn{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;box-shadow:0 4px 16px rgba(0,0,0,.25);text-decoration:none;transition:transform .2s}
+.float-btn:hover{transform:scale(1.1)}
+.float-wa{background:#25D366}
+.float-call{background:var(--primary-color)}
+@media(min-width:640px){.stats-bar-grid{grid-template-columns:repeat(4,1fr)}.before-after-grid{grid-template-columns:repeat(2,1fr)}.equipment-grid{grid-template-columns:repeat(2,1fr)}.category-cards{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:768px){.gallery-grid{grid-template-columns:repeat(2,1fr);gap:1.5rem}.quote-grid{grid-template-columns:1fr 1fr}.team-gallery-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.gallery-grid{grid-template-columns:repeat(3,1fr)}.equipment-grid{grid-template-columns:repeat(3,1fr)}.team-gallery-grid{grid-template-columns:repeat(4,1fr)}.before-after-grid{grid-template-columns:repeat(3,1fr)}.category-cards{grid-template-columns:repeat(3,1fr)}.lb-prev{left:-60px}.lb-next{right:-60px}}
+@media(min-width:1280px){.gallery-grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:640px){.filter-bar{flex-wrap:nowrap;overflow-x:auto;padding-bottom:.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:none}.filter-bar::-webkit-scrollbar{display:none}.filter-btn{flex-shrink:0}.lb-prev{left:0}.lb-next{right:0}.lb-close{top:-44px}.gallery-hero h1{font-size:1.6rem}.float-btn{width:46px;height:46px;font-size:1.1rem}}
+.fade-up{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
+.fade-up.visible{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.fade-up{transition:none;opacity:1;transform:none}.gallery-card{transition:none}}
+    </style>
+</head>
+<body>
+
+<header class="header sticky-header" id="header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <img src="/assets/images/logo.png" alt="Kleanmax Logo" class="header-logo" width="160" height="50">
+            </a>
+            
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            Services <span class="dropdown-icon">▼</span>
+                        </a>
+                        <ul class="dropdown-menu level-1">
+                            <li><a href="/office-cleaning-services">Office Cleaning</a></li>
+                            <li><a href="/commercial-cleaning-services">Commercial Cleaning</a></li>
+                            <li><a href="/industrial-cleaning-services">Industrial Cleaning</a></li>
+                            <li><a href="/factory-cleaning">Factory Cleaning</a></li>
+                            <li><a href="/warehouse-cleaning">Warehouse Cleaning</a></li>
+                            <li><a href="/deep-cleaning-services">Deep Cleaning</a></li>
+                            <li><a href="/floor-cleaning">Floor Care &amp; Polishing</a></li>
+                            <li><a href="/glass-cleaning">Glass &amp; Facade Cleaning</a></li>
+                            <li><a href="/hospital-cleaning">Hospital Cleaning</a></li>
+                            <li><a href="/housekeeping-services">Housekeeping Services</a></li>
+                            <li><a href="/janitorial-services">Janitorial Services</a></li>
+                            <li><a href="/disinfection-services">Sanitization &amp; Disinfection</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/gallery" class="active">Gallery</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a href="/locations" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            Locations <span class="dropdown-icon">▼</span>
+                        </a>
+                        <div class="dropdown-menu location-dropdown">
+                            <div class="dropdown-header">Chennai Areas</div>
+                            <div class="location-scroll-list">
+                                <a href="/chennai/alathur-commercial-cleaning" class="location-item">Alathur</a>
+                                <a href="/chennai/ambattur-commercial-cleaning" class="location-item">Ambattur</a>
+                                <a href="/chennai/arumbakkam-commercial-cleaning" class="location-item">Arumbakkam</a>
+                                <a href="/chennai/guindy-commercial-cleaning" class="location-item">Guindy</a>
+                                <a href="/chennai/gummidipoondi-commercial-cleaning" class="location-item">Gummidipoondi</a>
+                                <a href="/chennai/irungattukottai-commercial-cleaning" class="location-item">Irungattukottai</a>
+                                <a href="/chennai/kakkalur-commercial-cleaning" class="location-item">Kakkalur</a>
+                                <a href="/chennai/kodungaiyur-commercial-cleaning" class="location-item">Kodungaiyur</a>
+                                <a href="/chennai/manallur-commercial-cleaning" class="location-item">Manallur</a>
+                                <a href="/chennai/mappedu-commercial-cleaning" class="location-item">Mappedu</a>
+                                <a href="/chennai/maraimalai-nagar-commercial-cleaning" class="location-item">Maraimalai Nagar</a>
+                                <a href="/chennai/nemili-commercial-cleaning" class="location-item">Nemili</a>
+                                <a href="/chennai/omr-office-cleaning" class="location-item">OMR</a>
+                                <a href="/chennai/oragadam-commercial-cleaning" class="location-item">Oragadam</a>
+                                <a href="/chennai/perungudi-commercial-cleaning" class="location-item">Perungudi</a>
+                                <a href="/chennai/pillaipakkam-commercial-cleaning" class="location-item">Pillaipakkam</a>
+                                <a href="/chennai/siruseri-commercial-cleaning" class="location-item">Siruseri</a>
+                                <a href="/chennai/sriperumbudur-commercial-cleaning" class="location-item">Sriperumbudur</a>
+                                <a href="/chennai/thervoy-kandigai-commercial-cleaning" class="location-item">Thervoy Kandigai</a>
+                                <a href="/chennai/thirumazhisai-commercial-cleaning" class="location-item">Thirumazhisai</a>
+                                <a href="/chennai/thirumudivakkam-commercial-cleaning" class="location-item">Thirumudivakkam</a>
+                                <a href="/chennai/thirumullaivoil-commercial-cleaning" class="location-item">Thirumullaivoil</a>
+                                <a href="/chennai/thiruvanmiyur-commercial-cleaning" class="location-item">Thiruvanmiyur</a>
+                                <a href="/chennai/vallam-vadagal-commercial-cleaning" class="location-item">Vallam Vadagal</a>
+                                <a href="/chennai/vichoor-commercial-cleaning" class="location-item">Vichoor</a>
+                                <a href="/chennai/villivakkam-commercial-cleaning" class="location-item">Villivakkam</a>
+                                <a href="/locations" class="location-item location-all-link">View All Locations →</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="/contact" class="btn btn-primary">Get Free Quote</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobile-nav">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="mobile-nav" id="mobile-nav" aria-hidden="true">
+            <ul>
+                <li><a href="/" class="mobile-nav-link">Home</a></li>
+                <li><a href="/about" class="mobile-nav-link">About Us</a></li>
+                <li class="has-dropdown">
+                    <a href="#" class="mobile-nav-link dropdown-toggle">
+                        Services <span class="mobile-dropdown-icon">▼</span>
+                    </a>
+                    <div class="mobile-submenu">
+                        <a href="/office-cleaning-services">Office Cleaning</a>
+                        <a href="/commercial-cleaning-services">Commercial Cleaning</a>
+                        <a href="/industrial-cleaning-services">Industrial Cleaning</a>
+                        <a href="/factory-cleaning">Factory Cleaning</a>
+                        <a href="/warehouse-cleaning">Warehouse Cleaning</a>
+                        <a href="/deep-cleaning-services">Deep Cleaning</a>
+                        <a href="/floor-cleaning">Floor Care &amp; Polishing</a>
+                        <a href="/glass-cleaning">Glass &amp; Facade Cleaning</a>
+                        <a href="/hospital-cleaning">Hospital Cleaning</a>
+                        <a href="/housekeeping-services">Housekeeping Services</a>
+                        <a href="/janitorial-services">Janitorial Services</a>
+                        <a href="/disinfection-services">Sanitization &amp; Disinfection</a>
+                    </div>
+                </li>
+                <li><a href="/gallery" class="mobile-nav-link">Gallery</a></li>
+                <li class="has-dropdown">
+                    <a href="#" class="mobile-nav-link dropdown-toggle">
+                        Locations <span class="mobile-dropdown-icon">▼</span>
+                    </a>
+                    <div class="mobile-submenu">
+                        <a href="/chennai/guindy-commercial-cleaning">Guindy</a>
+                        <a href="/chennai/ambattur-commercial-cleaning">Ambattur</a>
+                        <a href="/chennai/omr-office-cleaning">OMR</a>
+                        <a href="/chennai/perungudi-commercial-cleaning">Perungudi</a>
+                        <a href="/chennai/sriperumbudur-commercial-cleaning">Sriperumbudur</a>
+                        <a href="/chennai/oragadam-commercial-cleaning">Oragadam</a>
+                        <a href="/chennai/irungattukottai-commercial-cleaning">Irungattukottai</a>
+                        <a href="/chennai/siruseri-commercial-cleaning">Siruseri</a>
+                        <a href="/locations">View All Locations →</a>
+                    </div>
+                </li>
+                <li><a href="/contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-nav-cta">
+                <a href="/contact" class="btn btn-primary">Get Free Quote</a>
+            </div>
+        </nav>
+    </header>
+
+<main>
+
+<!-- HERO -->
+<section class="gallery-hero">
+  <img src="/assets/images/industrial-cleaning-chennai.webp" alt="Professional industrial cleaning team working in a commercial facility in Chennai" class="gallery-hero-bg" loading="eager">
+  <div class="gallery-hero-overlay"></div>
+  <div class="container">
+    <div class="gallery-hero-content fade-up">
+      <div class="gallery-badge">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Professional Commercial Cleaning &middot; Chennai
+      </div>
+      <h1>Commercial &amp; Industrial Cleaning Projects in Chennai</h1>
+      <p>Explore Kleanmax cleaning projects, professional cleaning teams, modern equipment and facility cleaning solutions delivered for offices, industries, factories, warehouses, hospitals, IT parks and commercial properties across Chennai.</p>
+      <div class="gallery-hero-btns">
+        <a href="#quote-form" class="btn btn-primary">Get Free Quote</a>
+        <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Now</a>
+        <a href="tel:+917338882034" class="btn btn-call">&#128222; Call Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-bar-grid">
+      <div class="stat-item fade-up"><div class="stat-num" data-target="15">0</div><div class="stat-lbl">+ Years Experience</div></div>
+      <div class="stat-item fade-up"><div class="stat-num" data-target="1000">0</div><div class="stat-lbl">+ B2B Clients Served</div></div>
+      <div class="stat-item fade-up"><div class="stat-num">4.9&#9733;</div><div class="stat-lbl">Customer Rating</div></div>
+      <div class="stat-item fade-up"><div class="stat-num">24/7</div><div class="stat-lbl">Flexible Scheduling</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FILTER -->
+<section class="filter-section" id="gallery-filter">
+  <div class="container">
+    <span class="filter-label">Filter by Category</span>
+    <div class="filter-bar" role="group" aria-label="Gallery filters">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="office">Office Cleaning</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="industrial">Industrial</button>
+      <button class="filter-btn" data-filter="factory">Factory</button>
+      <button class="filter-btn" data-filter="warehouse">Warehouse</button>
+      <button class="filter-btn" data-filter="hospital">Healthcare</button>
+      <button class="filter-btn" data-filter="deep">Deep Cleaning</button>
+      <button class="filter-btn" data-filter="floor">Floor Care</button>
+      <button class="filter-btn" data-filter="glass">Glass &amp; Facade</button>
+      <button class="filter-btn" data-filter="disinfection">Disinfection</button>
+      <button class="filter-btn" data-filter="equipment">Equipment</button>
+      <button class="filter-btn" data-filter="team">Our Team</button>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY GRID -->
+<section class="gallery-section">
+  <div class="container">
+    <p class="gallery-count">Showing <span id="gallery-count">24</span> projects</p>
+    <div class="gallery-grid" id="gallery-grid">
+
+      <div class="gallery-card fade-up" data-category="office" data-title="Corporate Office Cleaning in Chennai" data-desc="Daily cleaning and workplace maintenance carried out by trained commercial cleaning professionals for a corporate office facility." data-img="/assets/images/office-cleaning-chennai.webp" data-alt="Professional office cleaning service in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Office Cleaning</span><img src="/assets/images/office-cleaning-chennai.webp" alt="Professional office cleaning service in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Corporate Office Cleaning in Chennai</div><div class="gallery-card-desc">Daily janitorial and workplace maintenance for corporate offices.</div><div class="gallery-card-loc">&#128205; OMR, Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="industrial" data-title="Industrial Facility Cleaning" data-desc="Heavy-duty industrial cleaning services for large-scale manufacturing and processing facilities using professional-grade equipment and trained personnel." data-img="/assets/images/industrial-cleaning-chennai.webp" data-alt="Industrial facility cleaning service in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Industrial</span><img src="/assets/images/industrial-cleaning-chennai.webp" alt="Industrial facility cleaning service in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Industrial Facility Cleaning</div><div class="gallery-card-desc">Heavy-duty cleaning for manufacturing and processing facilities.</div><div class="gallery-card-loc">&#128205; Sriperumbudur</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="warehouse" data-title="Warehouse Floor &amp; Aisle Cleaning" data-desc="Professional cleaning for warehouse floors, aisles and operational storage areas ensuring safe and hygienic working conditions." data-img="/assets/images/warehouse-cleaning-chennai.webp" data-alt="Warehouse cleaning services in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Warehouse</span><img src="/assets/images/warehouse-cleaning-chennai.webp" alt="Warehouse cleaning services in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Warehouse Floor &amp; Aisle Cleaning</div><div class="gallery-card-desc">Systematic cleaning of warehouse floors and storage aisles.</div><div class="gallery-card-loc">&#128205; Oragadam</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="factory" data-title="Factory Production Area Cleaning" data-desc="Specialized factory cleaning covering production floors and manufacturing areas with appropriate industrial cleaning procedures." data-img="/assets/images/factory-cleaning-chennai.webp" data-alt="Factory cleaning services in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Factory</span><img src="/assets/images/factory-cleaning-chennai.webp" alt="Factory cleaning services in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Factory Production Area Cleaning</div><div class="gallery-card-desc">Specialized cleaning for production floors and manufacturing zones.</div><div class="gallery-card-loc">&#128205; Ambattur, Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="hospital" data-title="Healthcare Facility Cleaning" data-desc="Hygiene-focused cleaning procedures for healthcare and clinical environments ensuring infection control and a safe environment for patients and staff." data-img="/assets/images/hospital-cleaning-chennai.webp" data-alt="Hospital and healthcare facility cleaning in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Healthcare</span><img src="/assets/images/hospital-cleaning-chennai.webp" alt="Hospital and healthcare facility cleaning in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Healthcare Facility Cleaning</div><div class="gallery-card-desc">Infection-controlled cleaning for hospitals and clinical environments.</div><div class="gallery-card-loc">&#128205; Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="floor" data-title="Commercial Floor Cleaning &amp; Polishing" data-desc="Machine-assisted floor scrubbing, polishing and hard-floor maintenance for corporate offices and commercial properties." data-img="/assets/images/floor-cleaning-chennai.webp" data-alt="Commercial floor cleaning and polishing in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Floor Care</span><img src="/assets/images/floor-cleaning-chennai.webp" alt="Commercial floor cleaning and polishing in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Commercial Floor Cleaning &amp; Polishing</div><div class="gallery-card-desc">Machine-assisted floor scrubbing and polishing for commercial facilities.</div><div class="gallery-card-loc">&#128205; Guindy, Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="glass" data-title="Kleanmax High-Reach Window Detailing" data-desc="Authentic project photo: Kleanmax personnel in safety PPE executing high-reach commercial window glass detailing." data-img="/assets/images/project-glass-cleaning-1.webp" data-alt="Authentic Kleanmax high-reach window glass cleaning project in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Glass &amp; Facade</span><img src="/assets/images/project-glass-cleaning-1.webp" alt="Authentic Kleanmax high-reach window glass cleaning project in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Kleanmax High-Reach Window Detailing</div><div class="gallery-card-desc">Trained technician executing precision window perimeter glass detailing.</div><div class="gallery-card-loc">&#128205; Authentic Kleanmax Project</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="glass" data-title="Precision Sliding Glass Cleaning" data-desc="Authentic project photo: Kleanmax technician cleaning commercial sliding glass window panels." data-img="/assets/images/project-glass-cleaning-2.webp" data-alt="Kleanmax technician cleaning commercial sliding glass window in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Glass &amp; Facade</span><img src="/assets/images/project-glass-cleaning-2.webp" alt="Kleanmax technician cleaning commercial sliding glass window in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Precision Sliding Glass Cleaning</div><div class="gallery-card-desc">Commercial glass panel cleaning removing dust film and water spots.</div><div class="gallery-card-loc">&#128205; Authentic Kleanmax Project</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="glass" data-title="Window Frame &amp; Glass Dusting" data-desc="Authentic project photo: Kleanmax cleaning worker performing window frame dust removal." data-img="/assets/images/project-glass-cleaning-3.webp" data-alt="Kleanmax cleaning worker performing window frame dust removal">
+        <div class="gallery-card-img"><span class="gallery-tag">Glass &amp; Facade</span><img src="/assets/images/project-glass-cleaning-3.webp" alt="Kleanmax cleaning worker performing window frame dust removal" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Window Frame &amp; Glass Dusting</div><div class="gallery-card-desc">Specialized duster application for high-efficiency glass maintenance.</div><div class="gallery-card-loc">&#128205; Authentic Kleanmax Project</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="team" data-title="Kleanmax Commercial Cleaning Team" data-desc="Trained Kleanmax cleaning professionals preparing for a commercial facility cleaning project. All team members are background verified and operationally trained." data-img="/assets/images/cleaning-team-chennai.webp" data-alt="Kleanmax commercial cleaning team in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Our Team</span><img src="/assets/images/cleaning-team-chennai.webp" alt="Kleanmax commercial cleaning team in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Kleanmax Professional Cleaning Team</div><div class="gallery-card-desc">Trained personnel ready for a commercial facility cleaning assignment.</div><div class="gallery-card-loc">&#128205; Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="equipment" data-title="Industrial Floor Scrubber in Action" data-desc="Modern industrial floor-scrubbing equipment used for efficient cleaning of large commercial and industrial floor areas." data-img="/assets/images/about-equipment-focus.webp" data-alt="Industrial floor scrubber machine used in commercial cleaning in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Equipment</span><img src="/assets/images/about-equipment-focus.webp" alt="Industrial floor scrubber machine used in commercial cleaning in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Industrial Floor Scrubber in Action</div><div class="gallery-card-desc">Commercial-grade floor scrubbing equipment for large facility cleaning.</div><div class="gallery-card-loc">&#128205; Representative Image</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="commercial" data-title="Commercial Building Cleaning" data-desc="Comprehensive cleaning services for commercial buildings, business centres and multi-tenant office complexes in Chennai." data-img="/assets/images/services/commercial-cleaning-services.webp" data-alt="Commercial building cleaning services in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Commercial</span><img src="/assets/images/services/commercial-cleaning-services.webp" alt="Commercial building cleaning services in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Commercial Building Cleaning</div><div class="gallery-card-desc">Complete facility cleaning for commercial buildings and business centres.</div><div class="gallery-card-loc">&#128205; Irungattukottai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="deep" data-title="Commercial Deep Cleaning Service" data-desc="Comprehensive deep cleaning for commercial facilities covering all surfaces, hard-to-reach areas, air vents, fixtures and furniture." data-img="/assets/images/services/deep-cleaning-services.webp" data-alt="Commercial deep cleaning services in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Deep Cleaning</span><img src="/assets/images/services/deep-cleaning-services.webp" alt="Commercial deep cleaning services in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Commercial Deep Cleaning Service</div><div class="gallery-card-desc">Thorough deep cleaning of all surfaces and areas in commercial facilities.</div><div class="gallery-card-loc">&#128205; Siruseri, Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="disinfection" data-title="Sanitization &amp; Disinfection" data-desc="Professional sanitization and disinfection services for offices, commercial facilities and healthcare environments using approved disinfectants." data-img="/assets/images/services/disinfection-services.webp" data-alt="Commercial sanitization and disinfection services in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Disinfection</span><img src="/assets/images/services/disinfection-services.webp" alt="Commercial sanitization and disinfection services in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Sanitization &amp; Disinfection</div><div class="gallery-card-desc">Professional disinfection for commercial and healthcare facilities.</div><div class="gallery-card-loc">&#128205; Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="team" data-title="Cleaning Team at Work" data-desc="Kleanmax professional cleaning team in action during a commercial facility cleaning operation, following standard operating procedures." data-img="/assets/images/about-professional-team.webp" data-alt="Kleanmax cleaning team at work in commercial facility">
+        <div class="gallery-card-img"><span class="gallery-tag">Our Team</span><img src="/assets/images/about-professional-team.webp" alt="Kleanmax cleaning team at work in commercial facility" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Cleaning Team at Work</div><div class="gallery-card-desc">Professional team carrying out facility cleaning according to site requirements.</div><div class="gallery-card-loc">&#128205; Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="office" data-title="IT Park Office Cleaning" data-desc="Daily office cleaning and janitorial maintenance for IT parks and technology campuses across Chennai's major IT corridors including OMR and Perungudi." data-img="/assets/images/services/office-cleaning-services.webp" data-alt="IT park office cleaning services in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Office Cleaning</span><img src="/assets/images/services/office-cleaning-services.webp" alt="IT park office cleaning services in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">IT Park Office Cleaning</div><div class="gallery-card-desc">Daily cleaning for IT parks and technology campuses in Chennai.</div><div class="gallery-card-loc">&#128205; Perungudi, OMR</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="warehouse" data-title="Distribution Centre Cleaning" data-desc="Systematic floor and aisle cleaning for large distribution centres and logistics facilities ensuring clean and safe operational environments." data-img="/assets/images/services/warehouse-cleaning.webp" data-alt="Distribution centre and logistics facility cleaning in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Warehouse</span><img src="/assets/images/services/warehouse-cleaning.webp" alt="Distribution centre and logistics facility cleaning in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Distribution Centre Cleaning</div><div class="gallery-card-desc">Systematic cleaning for logistics and distribution facilities.</div><div class="gallery-card-loc">&#128205; Vallam Vadagal</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="floor" data-title="Industrial Floor Cleaning" data-desc="Heavy-duty industrial floor cleaning using professional scrubbing equipment for factory floors, warehouses and large commercial spaces." data-img="/assets/images/services/floor-cleaning.webp" data-alt="Industrial floor cleaning using commercial scrubber in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Floor Care</span><img src="/assets/images/services/floor-cleaning.webp" alt="Industrial floor cleaning using commercial scrubber in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Industrial Floor Cleaning</div><div class="gallery-card-desc">Heavy-duty floor scrubbing for factories, warehouses and commercial spaces.</div><div class="gallery-card-loc">&#128205; Ambattur Industrial Estate</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="industrial" data-title="Manufacturing Plant Cleaning" data-desc="Deep cleaning of manufacturing plant environments including production areas, machinery surrounds and industrial loading docks." data-img="/assets/images/services/industrial-cleaning-services.webp" data-alt="Manufacturing plant cleaning services in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Industrial</span><img src="/assets/images/services/industrial-cleaning-services.webp" alt="Manufacturing plant cleaning services in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Manufacturing Plant Cleaning</div><div class="gallery-card-desc">Comprehensive cleaning for manufacturing plants and production zones.</div><div class="gallery-card-loc">&#128205; Irungattukottai SIPCOT</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="factory" data-title="Factory Floor Degreasing" data-desc="Professional degreasing and cleaning of factory floors using industrial-grade detergents and equipment to maintain safe working conditions." data-img="/assets/images/services/factory-cleaning.webp" data-alt="Factory floor degreasing and cleaning in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Factory</span><img src="/assets/images/services/factory-cleaning.webp" alt="Factory floor degreasing and cleaning in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Factory Floor Degreasing</div><div class="gallery-card-desc">Industrial-grade degreasing of factory floors for safety compliance.</div><div class="gallery-card-loc">&#128205; Gummidipoondi</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="hospital" data-title="Hospital Ward Cleaning" data-desc="Specialized hospital ward cleaning and sanitization maintaining hygiene standards in clinical areas, patient rooms and common zones." data-img="/assets/images/services/hospital-cleaning.webp" data-alt="Hospital ward cleaning and sanitization in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Healthcare</span><img src="/assets/images/services/hospital-cleaning.webp" alt="Hospital ward cleaning and sanitization in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Hospital Ward Cleaning</div><div class="gallery-card-desc">Sanitization and hygiene maintenance for hospital wards and clinical zones.</div><div class="gallery-card-loc">&#128205; Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="glass" data-title="High-Rise Glass Facade Cleaning" data-desc="Safe and professional high-rise glass and facade cleaning for commercial towers using appropriate access equipment." data-img="/assets/images/services/glass-cleaning.webp" data-alt="High-rise glass facade cleaning in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Glass &amp; Facade</span><img src="/assets/images/services/glass-cleaning.webp" alt="High-rise glass facade cleaning in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">High-Rise Glass Facade Cleaning</div><div class="gallery-card-desc">Professional high-rise glass cleaning for commercial office towers.</div><div class="gallery-card-loc">&#128205; Guindy, Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="equipment" data-title="Industrial Vacuum Systems" data-desc="Professional wet and dry industrial vacuum systems used for commercial facility maintenance, dust extraction and post-construction cleaning." data-img="/assets/images/services/janitorial-services.webp" data-alt="Industrial vacuum cleaning equipment used in commercial facilities">
+        <div class="gallery-card-img"><span class="gallery-tag">Equipment</span><img src="/assets/images/services/janitorial-services.webp" alt="Industrial vacuum cleaning equipment used in commercial facilities" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Industrial Vacuum Systems</div><div class="gallery-card-desc">Wet and dry vacuum equipment for commercial and industrial cleaning.</div><div class="gallery-card-loc">&#128205; Representative Image</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="commercial" data-title="Retail &amp; Showroom Cleaning" data-desc="Daily and periodic cleaning maintenance for retail showrooms, commercial exhibition spaces and customer-facing commercial interiors." data-img="/assets/images/services/housekeeping-services.webp" data-alt="Retail showroom cleaning services in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Commercial</span><img src="/assets/images/services/housekeeping-services.webp" alt="Retail showroom and commercial space cleaning in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Retail &amp; Showroom Cleaning</div><div class="gallery-card-desc">Commercial interior cleaning for retail spaces and showrooms.</div><div class="gallery-card-loc">&#128205; Thiruvanmiyur, Chennai</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="deep" data-title="Post-Construction Deep Cleaning" data-desc="Professional post-construction cleaning for newly built or refurbished commercial facilities, removing construction dust, debris and paint residues." data-img="/assets/images/about-hero-commercial.webp" data-alt="Post-construction deep cleaning for commercial facilities in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Deep Cleaning</span><img src="/assets/images/about-hero-commercial.webp" alt="Post-construction deep cleaning for commercial facilities in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Post-Construction Deep Cleaning</div><div class="gallery-card-desc">Complete deep clean for new or refurbished commercial facilities.</div><div class="gallery-card-loc">&#128205; Maraimalai Nagar</div></div>
+      </div>
+
+      <div class="gallery-card fade-up" data-category="disinfection" data-title="Facility Sanitization Service" data-desc="Area-wide sanitization and disinfection for commercial offices, factory canteens, washrooms and high-touch surfaces using approved solutions." data-img="/assets/images/services/disinfection-services.webp" data-alt="Facility sanitization and disinfection service in Chennai">
+        <div class="gallery-card-img"><span class="gallery-tag">Disinfection</span><img src="/assets/images/services/disinfection-services.webp" alt="Facility sanitization and disinfection service in Chennai" loading="lazy"><div class="gallery-overlay-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1"/></svg></div></div>
+        <div class="gallery-card-body"><div class="gallery-card-title">Facility Sanitization Service</div><div class="gallery-card-desc">Comprehensive disinfection of offices, canteens and high-touch areas.</div><div class="gallery-card-loc">&#128205; Villivakkam, Chennai</div></div>
+      </div>
+
+    </div><!-- /.gallery-grid -->
+  </div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section class="before-after-section">
+  <div class="container">
+    <div class="section-header text-center fade-up">
+      <h2 class="section-title">Before &amp; After Cleaning Results</h2>
+      <p class="section-subtitle">Representative images showing the transformation achieved through professional commercial and industrial cleaning.</p>
+      <p style="font-size:.78rem;color:#94a3b8;margin-top:.4rem;">Images are representative of professional cleaning outcomes carried out by trained Kleanmax teams.</p>
+    </div>
+    <div class="before-after-grid">
+      <div class="ba-card fade-up"><div class="ba-images"><div class="ba-side"><img src="/assets/images/industrial-cleaning-chennai.webp" alt="Industrial facility before professional cleaning" loading="lazy"><span class="ba-label before">Before</span></div><div class="ba-side"><img src="/assets/images/industrial-cleaning-chennai.webp" alt="Industrial facility after professional machine cleaning" loading="lazy" style="filter:brightness(1.12) saturate(1.2)"><span class="ba-label after">After</span></div></div><div class="ba-body"><h4>Industrial Floor Cleaning</h4><p>Heavy-duty floor cleaning for industrial manufacturing environments using professional scrubbing equipment.</p></div></div>
+      <div class="ba-card fade-up"><div class="ba-images"><div class="ba-side"><img src="/assets/images/office-cleaning-chennai.webp" alt="Commercial office before deep cleaning" loading="lazy"><span class="ba-label before">Before</span></div><div class="ba-side"><img src="/assets/images/office-cleaning-chennai.webp" alt="Clean and maintained commercial office after deep cleaning" loading="lazy" style="filter:brightness(1.15) saturate(1.1)"><span class="ba-label after">After</span></div></div><div class="ba-body"><h4>Commercial Office Deep Cleaning</h4><p>Systematic deep cleaning of corporate workspace restoring hygiene and professional presentation.</p></div></div>
+      <div class="ba-card fade-up"><div class="ba-images"><div class="ba-side"><img src="/assets/images/warehouse-cleaning-chennai.webp" alt="Warehouse before professional floor cleaning" loading="lazy"><span class="ba-label before">Before</span></div><div class="ba-side"><img src="/assets/images/warehouse-cleaning-chennai.webp" alt="Warehouse after professional floor and aisle cleaning" loading="lazy" style="filter:brightness(1.1) saturate(1.15)"><span class="ba-label after">After</span></div></div><div class="ba-body"><h4>Warehouse Aisle &amp; Floor Cleaning</h4><p>Professional floor and aisle cleaning for a large warehouse facility maintaining operational safety standards.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPMENT -->
+<section class="equipment-section">
+  <div class="container">
+    <div class="section-header text-center fade-up"><h2 class="section-title">Professional Cleaning Equipment</h2><p class="section-subtitle">Kleanmax deploys modern industrial-grade machinery to deliver efficient, high-quality cleaning results.</p></div>
+    <div class="equipment-grid">
+      <div class="equipment-card fade-up"><div class="equipment-card-img"><img src="/assets/images/about-equipment-focus.webp" alt="Industrial floor scrubber used for commercial floor cleaning" loading="lazy"></div><div class="equipment-card-body"><h4>Industrial Floor Scrubber</h4><p>Ride-on and walk-behind floor scrubbers for efficient cleaning of large commercial and industrial floor areas.</p><div class="equipment-used-for">Used in: Warehouses &middot; Factories &middot; IT Parks</div></div></div>
+      <div class="equipment-card fade-up"><div class="equipment-card-img"><img src="/assets/images/floor-cleaning-chennai.webp" alt="Single disc floor polishing machine for commercial use" loading="lazy"></div><div class="equipment-card-body"><h4>Single-Disc Floor Machine</h4><p>High-speed single-disc machines for floor polishing, scrubbing and marble/granite floor maintenance.</p><div class="equipment-used-for">Used in: Offices &middot; Showrooms &middot; Commercial Buildings</div></div></div>
+      <div class="equipment-card fade-up"><div class="equipment-card-img"><img src="/assets/images/glass-cleaning-chennai.webp" alt="Professional glass cleaning equipment for commercial buildings" loading="lazy"></div><div class="equipment-card-body"><h4>Glass &amp; Facade Cleaning Equipment</h4><p>Professional water-fed poles, squeegees and pressure systems for building glass and facade cleaning.</p><div class="equipment-used-for">Used in: Commercial Buildings &middot; IT Parks &middot; Towers</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team-section">
+  <div class="container">
+    <div class="section-header text-center fade-up"><h2 class="section-title">Our Professional Cleaning Team</h2><p class="section-subtitle">Kleanmax teams are trained to work in commercial and industrial environments with appropriate cleaning procedures, equipment and safety practices. All personnel undergo strict background verification.</p></div>
+    <div class="team-gallery-grid">
+      <div class="team-gallery-card fade-up"><div class="team-gallery-img"><img src="/assets/images/cleaning-team-chennai.webp" alt="Kleanmax commercial cleaning team in Chennai" loading="lazy"></div><div class="team-gallery-body"><h4>Commercial Cleaning Team</h4><p>Trained professionals preparing for a commercial cleaning project.</p></div></div>
+      <div class="team-gallery-card fade-up"><div class="team-gallery-img"><img src="/assets/images/about-professional-team.webp" alt="Kleanmax professional cleaning team at work" loading="lazy"></div><div class="team-gallery-body"><h4>Team in Action</h4><p>Professional facility cleaning carried out according to site requirements.</p></div></div>
+      <div class="team-gallery-card fade-up"><div class="team-gallery-img"><img src="/assets/images/about-equipment-focus.webp" alt="Kleanmax cleaning team operating industrial equipment" loading="lazy"></div><div class="team-gallery-body"><h4>Equipment Operation</h4><p>Certified team operating industrial cleaning equipment safely.</p></div></div>
+      <div class="team-gallery-card fade-up"><div class="team-gallery-img"><img src="/assets/images/industrial-cleaning-chennai.webp" alt="Kleanmax industrial cleaning specialists at work" loading="lazy"></div><div class="team-gallery-body"><h4>Industrial Specialists</h4><p>Experienced teams handling heavy-duty industrial cleaning assignments.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="category-section">
+  <div class="container">
+    <div class="section-header text-center fade-up"><h2 class="section-title">Our Cleaning Service Categories</h2><p class="section-subtitle">Kleanmax covers the full spectrum of commercial and industrial cleaning requirements across Chennai.</p></div>
+    <div class="category-cards">
+      <a href="/office-cleaning-services" class="category-card fade-up"><div class="cat-icon">&#127970;</div><div class="cat-body"><h3>Office Cleaning</h3><p>Daily and periodic cleaning for corporate offices, IT parks and business centres.</p><div class="cat-tags"><span class="cat-tag">Corporate Offices</span><span class="cat-tag">IT Parks</span><span class="cat-tag">Business Centres</span></div></div></a>
+      <a href="/industrial-cleaning-services" class="category-card fade-up"><div class="cat-icon">&#127981;</div><div class="cat-body"><h3>Industrial Cleaning</h3><p>Heavy-duty sanitation for manufacturing plants and industrial facilities.</p><div class="cat-tags"><span class="cat-tag">Factories</span><span class="cat-tag">Manufacturing</span><span class="cat-tag">Production Areas</span></div></div></a>
+      <a href="/warehouse-cleaning" class="category-card fade-up"><div class="cat-icon">&#128230;</div><div class="cat-body"><h3>Warehouse Cleaning</h3><p>Floor and aisle cleaning for warehouses, distribution and logistics facilities.</p><div class="cat-tags"><span class="cat-tag">Warehouses</span><span class="cat-tag">Distribution</span><span class="cat-tag">Logistics</span></div></div></a>
+      <a href="/hospital-cleaning" class="category-card fade-up"><div class="cat-icon">&#127973;</div><div class="cat-body"><h3>Healthcare Cleaning</h3><p>Infection-controlled cleaning for hospitals, clinics and healthcare facilities.</p><div class="cat-tags"><span class="cat-tag">Hospitals</span><span class="cat-tag">Clinics</span><span class="cat-tag">Healthcare</span></div></div></a>
+      <a href="/commercial-cleaning-services" class="category-card fade-up"><div class="cat-icon">&#127980;</div><div class="cat-body"><h3>Commercial Cleaning</h3><p>Cleaning for retail spaces, showrooms, commercial buildings and malls.</p><div class="cat-tags"><span class="cat-tag">Retail</span><span class="cat-tag">Showrooms</span><span class="cat-tag">Malls</span></div></div></a>
+      <a href="/floor-cleaning" class="category-card fade-up"><div class="cat-icon">&#10024;</div><div class="cat-body"><h3>Floor Care</h3><p>Machine scrubbing, polishing and hard-floor maintenance for commercial spaces.</p><div class="cat-tags"><span class="cat-tag">Scrubbing</span><span class="cat-tag">Polishing</span><span class="cat-tag">Marble &amp; Granite</span></div></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="gallery-cta">
+  <div class="container fade-up">
+    <h2>Need Professional Cleaning for Your Facility?</h2>
+    <p>Kleanmax provides commercial and industrial cleaning solutions for offices, factories, warehouses, hospitals, IT parks and commercial facilities across Chennai and surrounding industrial areas.</p>
+    <div class="gallery-cta-btns">
+      <a href="#quote-form" class="btn btn-primary">Get Free Quote</a>
+      <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Now</a>
+      <a href="tel:+917338882034" class="btn" style="background:transparent;border-color:rgba(255,255,255,.5);color:#fff;">&#128222; Call Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE FORM -->
+<section class="quote-section" id="quote-form">
+  <div class="container">
+    <div class="quote-grid">
+      <div class="quote-info fade-up">
+        <h2 class="section-title">Request a Free Site Inspection</h2>
+        <p>Fill in the form and our team will contact you within 24 hours to schedule a free site visit and provide a customized cleaning quotation for your facility.</p>
+        <ul class="quote-checklist">
+          <li>Free site inspection with no obligation</li>
+          <li>Customized cleaning plan for your facility</li>
+          <li>Transparent pricing &mdash; no hidden charges</li>
+          <li>Trained and background-verified cleaning teams</li>
+          <li>Flexible scheduling including night shifts &amp; weekends</li>
+          <li>Commercial, Industrial &amp; Healthcare specialists</li>
+        </ul>
+        <div style="margin-top:2rem;display:flex;flex-wrap:wrap;gap:.75rem;">
+          <a href="tel:+917338882034" class="btn btn-primary">&#128222; +91 73388 82034</a>
+          <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="btn btn-wa">WhatsApp</a>
+        </div>
+      </div>
+      <div class="quote-form-card fade-up">
+        <h3>Get Your Free Quote</h3>
+        <form id="galleryQuoteForm" novalidate>
+          <div class="form-group"><label for="gFullName">Full Name *</label><input type="text" id="gFullName" name="fullName" required placeholder="Your Name"><span class="error-msg">Please enter your name.</span></div>
+          <div class="form-group"><label for="gPhone">Phone Number *</label><input maxlength="10" minlength="10" pattern="[0-9]{10}" type="tel" id="gPhone" name="phone" required placeholder="10-digit mobile number"><span class="error-msg">Please enter a valid phone number.</span></div>
+          <div class="form-group"><label for="gService">Service Required *</label><select id="gService" name="service" required><option value="">Select a service...</option><option value="office">Office Cleaning</option><option value="commercial">Commercial Cleaning</option><option value="industrial">Industrial Cleaning</option><option value="factory">Factory Cleaning</option><option value="warehouse">Warehouse Cleaning</option><option value="deep">Deep Cleaning</option><option value="hospital">Hospital Cleaning</option><option value="floor">Floor Cleaning</option><option value="glass">Glass &amp; Facade Cleaning</option><option value="disinfection">Disinfection</option><option value="housekeeping">Housekeeping</option><option value="janitorial">Janitorial Services</option></select><span class="error-msg">Please select a service.</span></div>
+          <div class="form-group"><label for="gLocation">Location / Area *</label><input type="text" id="gLocation" name="location" required placeholder="e.g., Guindy, OMR, Ambattur"><span class="error-msg">Please enter your location.</span></div>
+          <div class="form-group"><label for="gMessage">Message</label><textarea id="gMessage" name="message" rows="3" placeholder="Tell us about your facility size, type and cleaning requirements..."></textarea></div>
+          <button type="submit" class="btn btn-primary btn-full" id="gSubmitBtn"><span class="btn-text">Request Free Quote</span><span class="loader hidden"></span></button>
+          <div class="form-status" id="gFormStatus" style="display:none;"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <a href="/" class="logo logo-light mb-3 d-inline-block">
+                        <img src="/assets/images/logo.png" alt="Kleanmax Logo" class="header-logo" width="160" height="50">
+                    </a>
+                    <p class="text-muted">Happy Mind Service</p>
+                    <p class="text-muted mt-3 text-sm">Professional commercial and industrial cleaning services in Chennai.</p>
+                    <div class="mobile-footer-actions">
+                        <a href="tel:+917338882034" class="mobile-footer-btn mobile-footer-btn-call">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 .91h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                            Call Now
+                        </a>
+                        <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="mobile-footer-btn mobile-footer-btn-wa">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="/office-cleaning-services">Office Cleaning</a></li>
+                        <li><a href="/industrial-cleaning-services">Industrial Cleaning</a></li>
+                        <li><a href="/factory-cleaning">Factory Cleaning</a></li>
+                        <li><a href="/deep-cleaning-services">Deep Cleaning</a></li>
+                        <li><a href="/floor-cleaning">Floor Care</a></li>
+                        <li><a href="/glass-cleaning">Glass &amp; Facade</a></li>
+                        <li><a href="/hospital-cleaning">Hospital Cleaning</a></li>
+                        <li><a href="/warehouse-cleaning">Warehouse Cleaning</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
+                        <li><a href="/locations">Locations</a></li>
+                        <li><a href="/#faq">FAQs</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Locations</h4>
+                    <ul>
+                        <li><a href="/chennai/guindy-commercial-cleaning">Guindy</a></li>
+                        <li><a href="/chennai/ambattur-commercial-cleaning">Ambattur</a></li>
+                        <li><a href="/chennai/omr-office-cleaning">OMR</a></li>
+                        <li><a href="/chennai/sriperumbudur-commercial-cleaning">Sriperumbudur</a></li>
+                        <li><a href="/chennai/oragadam-commercial-cleaning">Oragadam</a></li>
+                        <li><a href="/chennai/arumbakkam-commercial-cleaning">Arumbakkam</a></li>
+                        <li><a href="/locations">View All Locations</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-list">
+                        <li><a href="tel:+917338882034">+91 73388 82034</a></li>
+                        <li><a href="tel:+919884455667">+91 98844 55667</a></li>
+                        <li><a href="mailto:info@kleanmax.com">info@kleanmax.com</a></li>
+                        <li><a href="https://wa.me/917338882034" target="_blank" rel="noopener">WhatsApp Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; <span id="year">2026</span> Kleanmax. All rights reserved.
+                </div>
+                <div class="footer-links">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox-overlay" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+  <div class="lightbox-inner">
+    <button class="lb-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+    <button class="lb-nav lb-prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+    <button class="lb-nav lb-next" id="lightboxNext" aria-label="Next image">&#8250;</button>
+    <div class="lightbox-img-wrap"><img src="" alt="" id="lightboxImg" loading="lazy"></div>
+    <div class="lightbox-info"><div class="lb-cat" id="lightboxCat"></div><div class="lb-title" id="lightboxTitle"></div><div class="lb-desc" id="lightboxDesc"></div></div>
+  </div>
+</div>
+
+<!-- FLOATING BUTTONS -->
+<div class="floating-btns">
+  <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="float-btn float-wa" aria-label="WhatsApp Kleanmax"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+  <a href="tel:+917338882034" class="float-btn float-call" aria-label="Call Kleanmax"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 .91h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></a>
+</div>
+
+<script src="/assets/js/main.js"></script>
+<script>
+(function(){
+  // Filter
+  var filterBtns=document.querySelectorAll('.filter-btn');
+  var cards=document.querySelectorAll('.gallery-card');
+  var countEl=document.getElementById('gallery-count');
+  function applyFilter(f){var v=0;cards.forEach(function(c){var cat=c.dataset.category;if(f==='all'||cat===f){c.classList.remove('hidden');c.classList.add('fade-in');v++;setTimeout(function(){c.classList.remove('fade-in');},400);}else{c.classList.add('hidden');}});if(countEl)countEl.textContent=v;}
+  filterBtns.forEach(function(btn){btn.addEventListener('click',function(){filterBtns.forEach(function(b){b.classList.remove('active');});btn.classList.add('active');applyFilter(btn.dataset.filter);});});
+
+  // Lightbox
+  var lb=document.getElementById('lightbox');
+  var lbImg=document.getElementById('lightboxImg');
+  var lbTitle=document.getElementById('lightboxTitle');
+  var lbDesc=document.getElementById('lightboxDesc');
+  var lbCat=document.getElementById('lightboxCat');
+  var lbClose=document.getElementById('lightboxClose');
+  var lbPrev=document.getElementById('lightboxPrev');
+  var lbNext=document.getElementById('lightboxNext');
+  var ci=0;
+  function getVis(){return Array.from(cards).filter(function(c){return!c.classList.contains('hidden');});}
+  function openLb(idx){var vis=getVis();if(!vis.length)return;ci=Math.max(0,Math.min(idx,vis.length-1));var c=vis[ci];lbImg.src=c.dataset.img||c.querySelector('img').src;lbImg.alt=c.dataset.alt||'';lbTitle.textContent=c.dataset.title||'';lbDesc.textContent=c.dataset.desc||'';lbCat.textContent=(c.dataset.category||'').replace(/-/g,' ').toUpperCase();lb.classList.add('open');document.body.style.overflow='hidden';}
+  function closeLb(){lb.classList.remove('open');document.body.style.overflow='';}
+  function nav(d){var vis=getVis();ci=(ci+d+vis.length)%vis.length;openLb(ci);}
+  cards.forEach(function(c,idx){c.addEventListener('click',function(){var vis=getVis();var vi=vis.indexOf(c);openLb(vi>=0?vi:0);});c.setAttribute('tabindex','0');c.setAttribute('role','button');c.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();c.click();}});});
+  lbClose.addEventListener('click',closeLb);
+  lbPrev.addEventListener('click',function(e){e.stopPropagation();nav(-1);});
+  lbNext.addEventListener('click',function(e){e.stopPropagation();nav(1);});
+  lb.addEventListener('click',function(e){if(e.target===lb)closeLb();});
+  document.addEventListener('keydown',function(e){if(!lb.classList.contains('open'))return;if(e.key==='Escape')closeLb();if(e.key==='ArrowLeft')nav(-1);if(e.key==='ArrowRight')nav(1);});
+  var ts=0;lb.addEventListener('touchstart',function(e){ts=e.changedTouches[0].screenX;},{passive:true});
+  lb.addEventListener('touchend',function(e){var dx=e.changedTouches[0].screenX-ts;if(Math.abs(dx)>50)nav(dx<0?1:-1);},{passive:true});
+
+  // Fade-up
+  var pr=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if(!pr){var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:.1});document.querySelectorAll('.fade-up').forEach(function(el){obs.observe(el);});}
+  else{document.querySelectorAll('.fade-up').forEach(function(el){el.classList.add('visible');});}
+
+  // Stats
+  document.querySelectorAll('.stat-num[data-target]').forEach(function(el){var o2=new IntersectionObserver(function(entries){entries.forEach(function(en){if(en.isIntersecting){var t=parseFloat(el.dataset.target),dur=1800,s=performance.now();function tick(n){var p=Math.min((n-s)/dur,1),ease=1-Math.pow(1-p,3);el.textContent=Math.round(t*ease);if(p<1)requestAnimationFrame(tick);}requestAnimationFrame(tick);o2.unobserve(el);}});},{threshold:.5});o2.observe(el);});
+
+  // Form
+  var form=document.getElementById('galleryQuoteForm');
+  if(form){form.addEventListener('submit',function(e){e.preventDefault();var valid=true;form.querySelectorAll('[required]').forEach(function(f){f.parentElement.classList.remove('error');if(!f.value.trim()){f.parentElement.classList.add('error');valid=false;}});if(!valid)return;var btn=document.getElementById('gSubmitBtn');var stat=document.getElementById('gFormStatus');btn.querySelector('.btn-text').classList.add('hidden');btn.querySelector('.loader').classList.remove('hidden');btn.disabled=true;var data={};new FormData(form).forEach(function(v,k){data[k]=v;});data.source='gallery';fetch('/backend/submit.php',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){return r.json().then(function(j){if(r.ok&&j.success!==false){stat.style.display='block';stat.className='form-status status-success';stat.textContent='Thank you! Our team will contact you shortly.';form.reset();}else{throw new Error();}});}).catch(function(){stat.style.display='block';stat.className='form-status status-error';stat.textContent='Something went wrong. Please call us at +91 73388 82034.';}).finally(function(){btn.querySelector('.btn-text').classList.remove('hidden');btn.querySelector('.loader').classList.add('hidden');btn.disabled=false;});});}
+
+  var yr=document.getElementById('year');if(yr)yr.textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>

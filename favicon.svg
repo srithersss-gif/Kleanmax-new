@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Transparent Background -->
+  <g transform="translate(40, 20)">
+    <!-- Back Wing (Lime Green) -->
+    <path d="M260,80 C360,40 430,120 400,260 C370,360 300,320 280,280 C260,240 240,140 260,80 Z" fill="#88cb27"/>
+    <!-- Front Wing (Emerald Green) -->
+    <path d="M180,90 C300,90 350,250 310,380 C270,440 180,410 140,360 C100,310 100,180 180,90 Z" fill="#00b067"/>
+    <!-- Bottom Wing (Dark Emerald) -->
+    <path d="M310,260 C440,260 440,410 320,410 C240,410 180,360 310,260 Z" fill="#009756"/>
+    <!-- Antennae -->
+    <path d="M140,330 C90,290 40,230 10,210 C5,205 15,195 25,205 C50,225 90,270 135,310 Z" fill="#00b067"/>
+    <path d="M145,310 C100,250 60,200 45,185 C40,180 50,170 60,180 C75,195 110,240 142,295 Z" fill="#00b067"/>
+  </g>
+</svg>
