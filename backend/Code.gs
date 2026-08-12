@@ -25,7 +25,7 @@ function doPost(e) {
         "Message / Requirements",
         "Page URL"
       ]);
-      sheet.getRange(1, 1, 1, 10).setFontWeight("bold").setBackground("#102646").setFontColor("#ffffff");
+      sheet.getRange(1, 1, 1, 10).setFontWeight("bold").setBackground("#102646").setFontColor("#ffffff").setHorizontalAlignment("center");
     }
     
     var data = {};
@@ -74,6 +74,9 @@ function doPost(e) {
       message,
       pageUrl
     ]);
+    
+    // Center align the newly added row
+    sheet.getRange(sheet.getLastRow(), 1, 1, 10).setHorizontalAlignment("center");
     
     // Send Instant Email Notification to the Sheet Owner
     try {
