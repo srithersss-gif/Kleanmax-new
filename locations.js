@@ -2,7 +2,7 @@ module.exports = [
     {
         "id": "guindy",
         "name": "Guindy",
-        "slug": "chennai/guindy-commercial-cleaning",
+        "slug": "chennai/guindy-cleaning-services",
         "type": "mixed",
         "focus": "mixed",
         "primaryKeyword": "commercial cleaning Guindy",
@@ -49,7 +49,7 @@ module.exports = [
     {
         "id": "ambattur",
         "name": "Ambattur",
-        "slug": "chennai/ambattur-industrial-cleaning",
+        "slug": "chennai/ambattur-cleaning-services",
         "type": "heavy_industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Ambattur",
@@ -96,7 +96,7 @@ module.exports = [
     {
         "id": "omr",
         "name": "OMR (Old Mahabalipuram Road)",
-        "slug": "chennai/omr-office-cleaning",
+        "slug": "chennai/omr-cleaning-services",
         "type": "corporate",
         "focus": "corporate",
         "primaryKeyword": "office cleaning OMR",
@@ -143,7 +143,7 @@ module.exports = [
     {
         "id": "perungudi",
         "name": "Perungudi",
-        "slug": "chennai/perungudi-commercial-cleaning",
+        "slug": "chennai/perungudi-cleaning-services",
         "type": "corporate",
         "focus": "corporate",
         "primaryKeyword": "office cleaning Perungudi",
@@ -190,7 +190,7 @@ module.exports = [
     {
         "id": "sriperumbudur",
         "name": "Sriperumbudur",
-        "slug": "chennai/sriperumbudur-factory-cleaning",
+        "slug": "chennai/sriperumbudur-cleaning-services",
         "type": "heavy_industrial",
         "focus": "industrial",
         "primaryKeyword": "factory cleaning Sriperumbudur",
@@ -237,7 +237,7 @@ module.exports = [
     {
         "id": "oragadam",
         "name": "Oragadam",
-        "slug": "chennai/oragadam-industrial-cleaning",
+        "slug": "chennai/oragadam-cleaning-services",
         "type": "heavy_industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Oragadam",
@@ -284,7 +284,7 @@ module.exports = [
     {
         "id": "irungattukottai",
         "name": "Irungattukottai",
-        "slug": "chennai/irungattukottai-warehouse-cleaning",
+        "slug": "chennai/irungattukottai-cleaning-services",
         "type": "logistics",
         "focus": "logistics",
         "primaryKeyword": "warehouse cleaning Irungattukottai",
@@ -331,7 +331,7 @@ module.exports = [
     {
         "id": "siruseri",
         "name": "Siruseri",
-        "slug": "chennai/siruseri-it-park-cleaning",
+        "slug": "chennai/siruseri-cleaning-services",
         "type": "corporate",
         "focus": "corporate",
         "primaryKeyword": "IT park cleaning Siruseri",
@@ -378,7 +378,7 @@ module.exports = [
     {
         "id": "maraimalai-nagar",
         "name": "Maraimalai Nagar",
-        "slug": "chennai/maraimalai-nagar-industrial-cleaning",
+        "slug": "chennai/maraimalai-nagar-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Maraimalai Nagar",
@@ -425,7 +425,7 @@ module.exports = [
     {
         "id": "alathur",
         "name": "Alathur",
-        "slug": "chennai/alathur-commercial-cleaning",
+        "slug": "chennai/alathur-cleaning-services",
         "type": "pharma_biotech",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Alathur",
@@ -472,7 +472,7 @@ module.exports = [
     {
         "id": "gummidipoondi",
         "name": "Gummidipoondi",
-        "slug": "chennai/gummidipoondi-commercial-cleaning",
+        "slug": "chennai/gummidipoondi-cleaning-services",
         "type": "heavy_industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Gummidipoondi",
@@ -519,7 +519,7 @@ module.exports = [
     {
         "id": "kakkalur",
         "name": "Kakkalur",
-        "slug": "chennai/kakkalur-commercial-cleaning",
+        "slug": "chennai/kakkalur-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Kakkalur",
@@ -566,7 +566,7 @@ module.exports = [
     {
         "id": "kodungaiyur",
         "name": "Kodungaiyur",
-        "slug": "chennai/kodungaiyur-commercial-cleaning",
+        "slug": "chennai/kodungaiyur-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Kodungaiyur",
@@ -613,7 +613,7 @@ module.exports = [
     {
         "id": "manallur",
         "name": "Manallur",
-        "slug": "chennai/manallur-commercial-cleaning",
+        "slug": "chennai/manallur-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Manallur",
@@ -660,7 +660,7 @@ module.exports = [
     {
         "id": "mappedu",
         "name": "Mappedu",
-        "slug": "chennai/mappedu-commercial-cleaning",
+        "slug": "chennai/mappedu-cleaning-services",
         "type": "logistics",
         "focus": "logistics",
         "primaryKeyword": "logistics facility cleaning Mappedu",
@@ -707,7 +707,7 @@ module.exports = [
     {
         "id": "nemili",
         "name": "Nemili",
-        "slug": "chennai/nemili-commercial-cleaning",
+        "slug": "chennai/nemili-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Nemili",
@@ -754,7 +754,7 @@ module.exports = [
     {
         "id": "pillaipakkam",
         "name": "Pillaipakkam",
-        "slug": "chennai/pillaipakkam-commercial-cleaning",
+        "slug": "chennai/pillaipakkam-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Pillaipakkam",
@@ -801,7 +801,7 @@ module.exports = [
     {
         "id": "thervoy-kandigai",
         "name": "Thermoy Kandigai",
-        "slug": "chennai/thervoy-kandigai-commercial-cleaning",
+        "slug": "chennai/thervoy-kandigai-cleaning-services",
         "type": "heavy_industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Thervoy Kandigai",
@@ -848,7 +848,7 @@ module.exports = [
     {
         "id": "thirumazhisai",
         "name": "Thirumazhisai",
-        "slug": "chennai/thirumazhisai-commercial-cleaning",
+        "slug": "chennai/thirumazhisai-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Thirumazhisai",
@@ -895,7 +895,7 @@ module.exports = [
     {
         "id": "thirumudivakkam",
         "name": "Thirumudivakkam",
-        "slug": "chennai/thirumudivakkam-commercial-cleaning",
+        "slug": "chennai/thirumudivakkam-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Thirumudivakkam",
@@ -942,7 +942,7 @@ module.exports = [
     {
         "id": "thirumullaivoil",
         "name": "Thirumullaivoil",
-        "slug": "chennai/thirumullaivoil-commercial-cleaning",
+        "slug": "chennai/thirumullaivoil-cleaning-services",
         "type": "mixed",
         "focus": "mixed",
         "primaryKeyword": "commercial cleaning Thirumullaivoil",
@@ -989,7 +989,7 @@ module.exports = [
     {
         "id": "thiruvanmiyur",
         "name": "Thiruvanmiyur",
-        "slug": "chennai/thiruvanmiyur-commercial-cleaning",
+        "slug": "chennai/thiruvanmiyur-cleaning-services",
         "type": "corporate",
         "focus": "corporate",
         "primaryKeyword": "office cleaning Thiruvanmiyur",
@@ -1036,7 +1036,7 @@ module.exports = [
     {
         "id": "vallam-vadagal",
         "name": "Vallam Vadagal",
-        "slug": "chennai/vallam-vadagal-commercial-cleaning",
+        "slug": "chennai/vallam-vadagal-cleaning-services",
         "type": "heavy_industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Vallam Vadagal",
@@ -1083,7 +1083,7 @@ module.exports = [
     {
         "id": "vichoor",
         "name": "Vichoor",
-        "slug": "chennai/vichoor-commercial-cleaning",
+        "slug": "chennai/vichoor-cleaning-services",
         "type": "industrial",
         "focus": "industrial",
         "primaryKeyword": "industrial cleaning Vichoor",
@@ -1130,7 +1130,7 @@ module.exports = [
     {
         "id": "villivakkam",
         "name": "Villivakkam",
-        "slug": "chennai/villivakkam-commercial-cleaning",
+        "slug": "chennai/villivakkam-cleaning-services",
         "type": "mixed",
         "focus": "mixed",
         "primaryKeyword": "commercial cleaning Villivakkam",
@@ -1177,7 +1177,7 @@ module.exports = [
     {
         "id": "arumbakkam",
         "name": "Arumbakkam",
-        "slug": "chennai/arumbakkam-commercial-cleaning",
+        "slug": "chennai/arumbakkam-cleaning-services",
         "type": "commercial",
         "focus": "commercial",
         "primaryKeyword": "commercial cleaning Arumbakkam",
@@ -1218,6 +1218,45 @@ module.exports = [
             {
                 "q": "How do I request a free site survey in Arumbakkam?",
                 "a": "Contact us by phone (+91 73388 82034) or online form for a prompt on-site survey."
+            }
+        ]
+    },
+    {
+        "id": "poonamallee",
+        "name": "Poonamallee",
+        "slug": "chennai/poonamallee-cleaning-services",
+        "type": "mixed",
+        "focus": "mixed",
+        "primaryKeyword": "commercial cleaning Poonamallee",
+        "secondaryKeywords": [
+            "office cleaning Poonamallee",
+            "industrial cleaning Poonamallee",
+            "warehouse housekeeping Poonamallee"
+        ],
+        "heroDescription": "Professional commercial cleaning, corporate housekeeping, and industrial floor care for businesses and warehouses in Poonamallee.",
+        "aboutLocation": "Poonamallee is a rapidly growing commercial and industrial corridor connecting Chennai with the western hinterland. With a mix of corporate offices, logistical warehouses, and manufacturing units, businesses here require versatile and robust cleaning solutions. Kleanmax delivers adaptive B2B facility management in Poonamallee, offering everything from daily office housekeeping to heavy-duty warehouse floor scrubbing, ensuring pristine and safe working environments.",
+        "facilities": [
+            "Logistics & Warehouses",
+            "Manufacturing Units",
+            "Corporate Offices",
+            "Commercial Showrooms"
+        ],
+        "faqs": [
+            {
+                "q": "Do you offer cleaning services for warehouses in Poonamallee?",
+                "a": "Yes, we specialize in heavy-duty warehouse floor scrubbing and sweeping using industrial-grade machines."
+            },
+            {
+                "q": "Can office cleaning in Poonamallee be scheduled after hours?",
+                "a": "Absolutely. We offer flexible scheduling, including night shifts and weekends, to avoid disrupting your operations."
+            },
+            {
+                "q": "Are your cleaning staff background-verified?",
+                "a": "Yes, 100% of our staff undergo strict ID verification and background clearance before deployment."
+            },
+            {
+                "q": "How can I book a free site survey in Poonamallee?",
+                "a": "Contact us by phone (+91 73388 82034) or fill out our online form for a prompt on-site survey."
             }
         ]
     }
