@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             } catch (error) {
                 if (statusDiv) {
-                    statusDiv.textContent = 'Submission error. Please call us directly at +91 73388 82034.';
+                    statusDiv.textContent = 'Submission error. Please call us directly at +91 81222 82034.';
                     statusDiv.classList.add('status-error');
                 }
             } finally {

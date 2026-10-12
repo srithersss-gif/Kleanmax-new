@@ -42,7 +42,7 @@ module.exports = [
             },
             {
                 "q": "How can I book a free site survey in Guindy?",
-                "a": "Contact us via our website, phone (+91 73388 82034), or WhatsApp. Our facility manager will visit your Guindy premise within 24 hours."
+                "a": "Contact us via our website, phone (+91 81222 82034), or WhatsApp. Our facility manager will visit your Guindy premise within 24 hours."
             }
         ]
     },
@@ -183,7 +183,7 @@ module.exports = [
             },
             {
                 "q": "How can I book a free site survey in Perungudi?",
-                "a": "Call +91 73388 82034 or submit an online request. Our facility manager will inspect your Perungudi premise promptly."
+                "a": "Call +91 81222 82034 or submit an online request. Our facility manager will inspect your Perungudi premise promptly."
             }
         ]
     },
@@ -277,7 +277,7 @@ module.exports = [
             },
             {
                 "q": "How do I book a site inspection in Oragadam?",
-                "a": "Call +91 73388 82034 or fill out our online request form. Our industrial engineers will inspect your facility promptly."
+                "a": "Call +91 81222 82034 or fill out our online request form. Our industrial engineers will inspect your facility promptly."
             }
         ]
     },
@@ -371,7 +371,7 @@ module.exports = [
             },
             {
                 "q": "How can our Siruseri facility request a proposal?",
-                "a": "Call +91 73388 82034 or submit an online request. Our corporate facility managers will arrange a site walk-through."
+                "a": "Call +91 81222 82034 or submit an online request. Our corporate facility managers will arrange a site walk-through."
             }
         ]
     },
@@ -559,7 +559,7 @@ module.exports = [
             },
             {
                 "q": "How do I request a site inspection in Kakkalur?",
-                "a": "Call +91 73388 82034 or submit an online request. Our technical manager will visit your Kakkalur unit promptly."
+                "a": "Call +91 81222 82034 or submit an online request. Our technical manager will visit your Kakkalur unit promptly."
             }
         ]
     },
@@ -653,7 +653,7 @@ module.exports = [
             },
             {
                 "q": "How do I request a site inspection in Manallur?",
-                "a": "Call +91 73388 82034 or request a survey online. Our technical team will visit your facility."
+                "a": "Call +91 81222 82034 or request a survey online. Our technical team will visit your facility."
             }
         ]
     },
@@ -747,7 +747,7 @@ module.exports = [
             },
             {
                 "q": "How do I book a free site survey in Nemili?",
-                "a": "Call +91 73388 82034 or submit an online request for a prompt on-site facility evaluation."
+                "a": "Call +91 81222 82034 or submit an online request for a prompt on-site facility evaluation."
             }
         ]
     },
@@ -841,7 +841,7 @@ module.exports = [
             },
             {
                 "q": "How do I request a site inspection in Thervoy Kandigai?",
-                "a": "Call +91 73388 82034 or submit an online request for an on-site technical inspection."
+                "a": "Call +91 81222 82034 or submit an online request for an on-site technical inspection."
             }
         ]
     },
@@ -935,7 +935,7 @@ module.exports = [
             },
             {
                 "q": "How do I request a site inspection in Thirumudivakkam?",
-                "a": "Call +91 73388 82034 or submit an online request. Our technical manager will visit your facility."
+                "a": "Call +91 81222 82034 or submit an online request. Our technical manager will visit your facility."
             }
         ]
     },
@@ -982,7 +982,7 @@ module.exports = [
             },
             {
                 "q": "How do I request a site survey in Thirumullaivoil?",
-                "a": "Contact us via phone (+91 73388 82034) or web form. We will arrange a free survey promptly."
+                "a": "Contact us via phone (+91 81222 82034) or web form. We will arrange a free survey promptly."
             }
         ]
     },
@@ -1029,7 +1029,7 @@ module.exports = [
             },
             {
                 "q": "How can I request a quote for an office in Thiruvanmiyur?",
-                "a": "Call +91 73388 82034 or submit an online request for a free site evaluation."
+                "a": "Call +91 81222 82034 or submit an online request for a free site evaluation."
             }
         ]
     },
@@ -1123,7 +1123,7 @@ module.exports = [
             },
             {
                 "q": "How do I request a site inspection in Vichoor?",
-                "a": "Call +91 73388 82034 or submit an online request. Our technical team will visit your premise."
+                "a": "Call +91 81222 82034 or submit an online request. Our technical team will visit your premise."
             }
         ]
     },
@@ -1170,7 +1170,7 @@ module.exports = [
             },
             {
                 "q": "How can I request a cleaning quote in Villivakkam?",
-                "a": "Call +91 73388 82034 or request a survey online for a free on-site estimate."
+                "a": "Call +91 81222 82034 or request a survey online for a free on-site estimate."
             }
         ]
     },
@@ -1217,7 +1217,7 @@ module.exports = [
             },
             {
                 "q": "How do I request a free site survey in Arumbakkam?",
-                "a": "Contact us by phone (+91 73388 82034) or online form for a prompt on-site survey."
+                "a": "Contact us by phone (+91 81222 82034) or online form for a prompt on-site survey."
             }
         ]
     },
@@ -1256,7 +1256,7 @@ module.exports = [
             },
             {
                 "q": "How can I book a free site survey in Poonamallee?",
-                "a": "Contact us by phone (+91 73388 82034) or fill out our online form for a prompt on-site survey."
+                "a": "Contact us by phone (+91 81222 82034) or fill out our online form for a prompt on-site survey."
             }
         ]
     }

@@ -111,7 +111,7 @@ module.exports = [
             },
             {
                 "q": "How can I request a site inspection for an office cleaning quote?",
-                "a": "Contact us via our website form, phone (+91 73388 82034), or WhatsApp. We will conduct a free site survey and deliver a detailed commercial proposal."
+                "a": "Contact us via our website form, phone (+91 81222 82034), or WhatsApp. We will conduct a free site survey and deliver a detailed commercial proposal."
             }
         ]
     },
@@ -923,7 +923,7 @@ module.exports = [
             },
             {
                 "q": "How do I book a disinfection service for my office?",
-                "a": "Call +91 73388 82034 or request a quote online. We can deploy a sanitization crew to your facility within hours."
+                "a": "Call +91 81222 82034 or request a quote online. We can deploy a sanitization crew to your facility within hours."
             }
         ]
     },

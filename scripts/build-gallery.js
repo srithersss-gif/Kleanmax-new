@@ -18,7 +18,7 @@ const html = `<!DOCTYPE html>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Kleanmax","url":"https://kleanmax.com","telephone":"+917338882034","address":{"@type":"PostalAddress","addressLocality":"Chennai","addressCountry":"IN"}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Kleanmax","url":"https://kleanmax.com","telephone":"+91 81222 82034","address":{"@type":"PostalAddress","addressLocality":"Chennai","addressCountry":"IN"}}</script>
     <style>
 /* =============================================
    GALLERY PAGE STYLES
@@ -260,8 +260,8 @@ const html = `<!DOCTYPE html>
       <p>Explore Kleanmax cleaning projects, professional cleaning teams, modern equipment and facility cleaning solutions delivered for offices, industries, factories, warehouses, hospitals, IT parks and commercial properties across Chennai.</p>
       <div class="gallery-hero-btns">
         <a href="#quote-form" class="btn btn-primary">Get Free Quote</a>
-        <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Now</a>
-        <a href="tel:+917338882034" class="btn btn-call">&#128222; Call Now</a>
+        <a href="https://wa.me/918122282034" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Now</a>
+        <a href="tel:+918122282034" class="btn btn-call">&#128222; Call Now</a>
       </div>
     </div>
   </div>
@@ -533,8 +533,8 @@ const html = `<!DOCTYPE html>
     <p>Kleanmax provides commercial and industrial cleaning solutions for offices, factories, warehouses, hospitals, IT parks and commercial facilities across Chennai and surrounding industrial areas.</p>
     <div class="gallery-cta-btns">
       <a href="#quote-form" class="btn btn-primary">Get Free Quote</a>
-      <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Now</a>
-      <a href="tel:+917338882034" class="btn" style="background:transparent;border-color:rgba(255,255,255,.5);color:#fff;">&#128222; Call Now</a>
+      <a href="https://wa.me/918122282034" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Now</a>
+      <a href="tel:+918122282034" class="btn" style="background:transparent;border-color:rgba(255,255,255,.5);color:#fff;">&#128222; Call Now</a>
     </div>
   </div>
 </section>
@@ -555,15 +555,15 @@ const html = `<!DOCTYPE html>
           <li>Commercial, Industrial &amp; Healthcare specialists</li>
         </ul>
         <div style="margin-top:2rem;display:flex;flex-wrap:wrap;gap:.75rem;">
-          <a href="tel:+917338882034" class="btn btn-primary">&#128222; +91 73388 82034</a>
-          <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="btn btn-wa">WhatsApp</a>
+          <a href="tel:+918122282034" class="btn btn-primary">&#128222; +91 81222 82034</a>
+          <a href="https://wa.me/918122282034" target="_blank" rel="noopener" class="btn btn-wa">WhatsApp</a>
         </div>
       </div>
       <div class="quote-form-card fade-up">
         <h3>Get Your Free Quote</h3>
         <form id="galleryQuoteForm" novalidate>
           <div class="form-group"><label for="gFullName">Full Name *</label><input type="text" id="gFullName" name="fullName" required placeholder="Your Name"><span class="error-msg">Please enter your name.</span></div>
-          <div class="form-group"><label for="gPhone">Phone Number *</label><input type="tel" id="gPhone" name="phone" required placeholder="+91 98765 43210"><span class="error-msg">Please enter a valid phone number.</span></div>
+          <div class="form-group"><label for="gPhone">Phone Number *</label><input type="tel" id="gPhone" name="phone" required placeholder="10-digit mobile number"><span class="error-msg">Please enter a valid phone number.</span></div>
           <div class="form-group"><label for="gService">Service Required *</label><select id="gService" name="service" required><option value="">Select a service...</option><option value="office">Office Cleaning</option><option value="commercial">Commercial Cleaning</option><option value="industrial">Industrial Cleaning</option><option value="factory">Factory Cleaning</option><option value="warehouse">Warehouse Cleaning</option><option value="deep">Deep Cleaning</option><option value="hospital">Hospital Cleaning</option><option value="floor">Floor Cleaning</option><option value="glass">Glass &amp; Facade Cleaning</option><option value="disinfection">Disinfection</option><option value="housekeeping">Housekeeping</option><option value="janitorial">Janitorial Services</option></select><span class="error-msg">Please select a service.</span></div>
           <div class="form-group"><label for="gLocation">Location / Area *</label><input type="text" id="gLocation" name="location" required placeholder="e.g., Guindy, OMR, Ambattur"><span class="error-msg">Please enter your location.</span></div>
           <div class="form-group"><label for="gMessage">Message</label><textarea id="gMessage" name="message" rows="3" placeholder="Tell us about your facility size, type and cleaning requirements..."></textarea></div>
@@ -585,7 +585,7 @@ const html = `<!DOCTYPE html>
       <div class="footer-col"><h4>Services</h4><ul><li><a href="/office-cleaning-services">Office Cleaning</a></li><li><a href="/industrial-cleaning-services">Industrial Cleaning</a></li><li><a href="/factory-cleaning">Factory Cleaning</a></li><li><a href="/warehouse-cleaning">Warehouse Cleaning</a></li><li><a href="/deep-cleaning-services">Deep Cleaning</a></li><li><a href="/floor-cleaning">Floor Care</a></li><li><a href="/glass-cleaning">Glass &amp; Facade</a></li><li><a href="/hospital-cleaning">Hospital Cleaning</a></li></ul></div>
       <div class="footer-col"><h4>Locations</h4><ul><li><a href="/chennai/guindy-commercial-cleaning">Guindy</a></li><li><a href="/chennai/ambattur-commercial-cleaning">Ambattur</a></li><li><a href="/chennai/sriperumbudur-commercial-cleaning">Sriperumbudur</a></li><li><a href="/chennai/oragadam-commercial-cleaning">Oragadam</a></li><li><a href="/chennai/siruseri-commercial-cleaning">Siruseri</a></li><li><a href="/chennai/perungudi-commercial-cleaning">Perungudi</a></li><li><a href="/chennai/irungattukottai-commercial-cleaning">Irungattukottai</a></li><li><a href="/locations">All Locations</a></li></ul></div>
       <div class="footer-col"><h4>Company</h4><ul><li><a href="/about">About Us</a></li><li><a href="/gallery">Gallery</a></li><li><a href="/#faq">FAQs</a></li><li><a href="/contact">Contact</a></li></ul></div>
-      <div class="footer-col"><h4>Contact Us</h4><ul class="contact-list"><li><a href="tel:+917338882034">+91 73388 82034</a></li><li><a href="mailto:info@kleanmax.com">info@kleanmax.com</a></li><li><a href="https://wa.me/917338882034" target="_blank" rel="noopener">WhatsApp Chat</a></li></ul></div>
+      <div class="footer-col"><h4>Contact Us</h4><ul class="contact-list"><li><a href="tel:+918122282034">+91 81222 82034</a></li><li><a href="tel:+919500087941">+91 95000 87941</a></li><li><a href="mailto:info@kleanmax.com">info@kleanmax.com</a></li><li><a href="https://wa.me/918122282034" target="_blank" rel="noopener">WhatsApp Chat</a></li></ul></div>
     </div>
     <div class="footer-bottom"><div class="copyright">&copy; <span id="year">2026</span> Kleanmax. All rights reserved.</div><div class="footer-links"><a href="/privacy">Privacy Policy</a><a href="/terms">Terms of Service</a></div></div>
   </div>
@@ -604,8 +604,8 @@ const html = `<!DOCTYPE html>
 
 <!-- FLOATING BUTTONS -->
 <div class="floating-btns">
-  <a href="https://wa.me/917338882034" target="_blank" rel="noopener" class="float-btn float-wa" aria-label="WhatsApp Kleanmax"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
-  <a href="tel:+917338882034" class="float-btn float-call" aria-label="Call Kleanmax"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 .91h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></a>
+  <a href="https://wa.me/918122282034" target="_blank" rel="noopener" class="float-btn float-wa" aria-label="WhatsApp Kleanmax"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+  <a href="tel:+918122282034" class="float-btn float-call" aria-label="Call Kleanmax"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 .91h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></a>
 </div>
 
 <script src="/assets/js/main.js"></script>
@@ -651,7 +651,7 @@ const html = `<!DOCTYPE html>
 
   // Form
   var form=document.getElementById('galleryQuoteForm');
-  if(form){form.addEventListener('submit',function(e){e.preventDefault();var valid=true;form.querySelectorAll('[required]').forEach(function(f){f.parentElement.classList.remove('error');if(!f.value.trim()){f.parentElement.classList.add('error');valid=false;}});if(!valid)return;var btn=document.getElementById('gSubmitBtn');var stat=document.getElementById('gFormStatus');btn.querySelector('.btn-text').classList.add('hidden');btn.querySelector('.loader').classList.remove('hidden');btn.disabled=true;var data={};new FormData(form).forEach(function(v,k){data[k]=v;});data.source='gallery';fetch('/backend/submit.php',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){return r.json().then(function(j){if(r.ok&&j.success!==false){stat.style.display='block';stat.className='form-status status-success';stat.textContent='Thank you! Our team will contact you shortly.';form.reset();}else{throw new Error();}});}).catch(function(){stat.style.display='block';stat.className='form-status status-error';stat.textContent='Something went wrong. Please call us at +91 73388 82034.';}).finally(function(){btn.querySelector('.btn-text').classList.remove('hidden');btn.querySelector('.loader').classList.add('hidden');btn.disabled=false;});});}
+  if(form){form.addEventListener('submit',function(e){e.preventDefault();var valid=true;form.querySelectorAll('[required]').forEach(function(f){f.parentElement.classList.remove('error');if(!f.value.trim()){f.parentElement.classList.add('error');valid=false;}});if(!valid)return;var btn=document.getElementById('gSubmitBtn');var stat=document.getElementById('gFormStatus');btn.querySelector('.btn-text').classList.add('hidden');btn.querySelector('.loader').classList.remove('hidden');btn.disabled=true;var data={};new FormData(form).forEach(function(v,k){data[k]=v;});data.source='gallery';fetch('/backend/submit.php',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){return r.json().then(function(j){if(r.ok&&j.success!==false){stat.style.display='block';stat.className='form-status status-success';stat.textContent='Thank you! Our team will contact you shortly.';form.reset();}else{throw new Error();}});}).catch(function(){stat.style.display='block';stat.className='form-status status-error';stat.textContent='Something went wrong. Please call us at +91 81222 82034.';}).finally(function(){btn.querySelector('.btn-text').classList.remove('hidden');btn.querySelector('.loader').classList.add('hidden');btn.disabled=false;});});}
 
   var yr=document.getElementById('year');if(yr)yr.textContent=new Date().getFullYear();
 })();
